@@ -2,6 +2,9 @@
     "name": "icspark-webdev-env",
     "image": "node:18-alpine",
     "forwardPorts": [3000, 3001],
+    "features": {
+        "ghcr.io/devcontainers/features/git:1": {}
+    },
     "customizations": {
       "vscode": {
         "extensions": [
